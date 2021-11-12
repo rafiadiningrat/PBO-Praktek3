@@ -11,17 +11,24 @@ package exercise2;
  */
 public class Exercise2 {
 
-    public static void main(String[] args) {
-        Shape s1 =new Shape();
-        System.out.println(s1.toString());
-        
-        Shape s2 = new Shape("blue", true);
-        System.out.println(s2.toString());
-        
-        s2.setFilled(false);
-        s2.setColor("red");
-        System.out.println(s2.toString());
-        
-        
-    }
+    public static void main(String[]args) {
+Circle s1 = new Circle(5.5, "red", false);
+System.out.println(s1);
+System.out.println(s1.getArea());
+System.out.println(s1.getColor());
+
+Rectangle s3 = new Rectangle(1.0, 2.0, "white", false);
+System.out.println(s3);
+System.out.println(s3.getArea());
+System.out.println(s3.getColor());
+
+Square s4 = new Square(6.6, "blue", true);
+System.out.println(s4);
+System.out.println(s4.getArea());
+System.out.println(s4.getColor());
+
+
+
+
+}
 }

@@ -12,6 +12,7 @@ package exercise2;
 public class Circle extends Shape{
     //private variable
     private double radius;
+    boolean toString;
     
     public Circle(){
         this.radius=1.0;

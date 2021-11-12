@@ -12,6 +12,7 @@ package exercise2;
 public class Rectangle extends Shape {
     private double width;
     private double length;
+    boolean toString;
     
     public Rectangle(){
         this.width=1.0;

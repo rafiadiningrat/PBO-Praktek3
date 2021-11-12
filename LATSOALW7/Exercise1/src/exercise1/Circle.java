@@ -37,7 +37,6 @@ public class Circle {
     public String getColor() {
         return color;
     }
-    //setter method
     public void setColor(String color) {
         this.color = color;
     }
